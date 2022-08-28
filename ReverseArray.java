@@ -1,7 +1,8 @@
 public class ReverseArray {
-    public static void reverseArray(int arr[], int n) {
-        int start = 0;
-        int end = n - 1;
+    public static void reverseArray(int arr[], int m) {
+
+        int start = m + 1;
+        int end = arr.length - 1;
         while (start <= end) {
             int temp = arr[start];
             arr[start] = arr[end];
@@ -21,9 +22,9 @@ public class ReverseArray {
 
     public static void main(String[] args) {
         int arr[] = { 5, 4, 3, 2, 1, 0 };
-        printArray(arr, 6);  // before reverse 
-        reverseArray(arr, 6);
-        printArray(arr, 6); // after reverse 
+        printArray(arr, 6); // before reverse
+        reverseArray(arr, 3);
+        printArray(arr, 6); // after reverse
 
     }
 }
