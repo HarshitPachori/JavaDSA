@@ -1,7 +1,8 @@
+
+
 import java.util.*;
 
 public class FindDuplicate {
-
     // Naive Approach BruteForce
     // Time comp -> O(nlogn) space comp -> O(1)
     public static int findDuplicateNumberByBruteForceMethod(int nums[]) {
