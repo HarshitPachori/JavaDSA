@@ -1,5 +1,3 @@
-
-
 import java.util.*;
 
 public class FindDuplicate {
@@ -30,8 +28,8 @@ public class FindDuplicate {
 
     }
 
-    // Linkedlist Cycle Method optimized solution
-    // Time comp -> O(n) Space comp -> O(1)
+    //! Linkedlist Cycle Method optimized solution
+    //!  Time comp -> O(n) Space comp -> O(1)
     public static int findDuplicateNumberByLinkedlistCycleMethod(int nums[]) {
         int slow = nums[0];
         int fast = nums[0];
