@@ -10,6 +10,7 @@ public class LeadersInArray {
                 list.add(arr[i]);
                 maxi = arr[i];
             }
+            
         }
         Collections.reverse(list);
         return list;
