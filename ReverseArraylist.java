@@ -23,6 +23,7 @@ public class ReverseArraylist {
         nums.add(2);
         nums.add(3);
         nums.add(4);
+        System.out.println(nums);
         reverseArrayList(nums, 1);
         System.out.println(nums);
     }

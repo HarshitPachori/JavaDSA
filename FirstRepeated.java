@@ -10,7 +10,6 @@ public class FirstRepeated {
             }
             map.put(arr[i], i + 1);
         }
-
         if (res == Integer.MAX_VALUE)
             return -1;
         return res;
