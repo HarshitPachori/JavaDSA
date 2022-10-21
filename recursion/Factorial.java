@@ -14,5 +14,6 @@ public class Factorial {
         int res = fact(num);
         System.out.println("Fact of " + num + " is " + res);
         sc.close();
+
     }
 }
