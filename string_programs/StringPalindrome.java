@@ -1,4 +1,4 @@
-package array_programs;
+package string_programs;
 import java.util.Scanner;
 
 class StringPalindrome {
