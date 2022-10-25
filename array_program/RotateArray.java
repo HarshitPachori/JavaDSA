@@ -1,4 +1,4 @@
-package array_programs;
+package array_program;
 public class RotateArray {
     public static void rotateArray(int nums[], int k) {
         int temp[] = new int[nums.length];

@@ -1,4 +1,5 @@
-package array_programs;
+package array_program;
+
 import java.util.HashMap;
 
 public class CountPairsWithGivenSum {

@@ -1,4 +1,4 @@
-package array_programs;
+package array_program;
 public class MaximumSubarraySum {
     public static int findMaxiSum(int arr[], int n) {
         int sum = 0;

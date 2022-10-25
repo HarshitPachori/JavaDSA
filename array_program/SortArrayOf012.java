@@ -1,5 +1,4 @@
-package array_programs;
-
+package array_program;
 import java.util.*;
 
 public class SortArrayOf012 {
@@ -59,6 +58,7 @@ public class SortArrayOf012 {
                     temp = nums[mid];
                     nums[mid] = nums[high];
                     nums[high] = temp;
+                    high--;
                     break;
             }
         }
@@ -67,8 +67,8 @@ public class SortArrayOf012 {
 
     public static void main(String[] args) {
         int arr[] = { 0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1 };
-        // sortMethodUsingBruteForce(arr, arr.length);
-        sortMethodUsing3Pointer(arr, arr.length);
+        sortMethodUsingBruteForce(arr, arr.length);
+        // sortMethodUsing3Pointer(arr, arr.length);
         // sortMethodUsingCountingSort(arr, arr.length);
 
         for (int i = 0; i < arr.length; i++) {

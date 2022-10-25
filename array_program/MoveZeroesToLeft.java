@@ -1,4 +1,4 @@
-package array_programs;
+package array_program;
 
 public class MoveZeroesToLeft {
     public static void moveToLeft(int arr[], int n) {
