@@ -1,4 +1,4 @@
-package array_program;
+;
 public class WaveArray {
     public static void waveArray(int arr[], int n) {
         for (int i = 1; i < n; i++) {

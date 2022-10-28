@@ -1,4 +1,3 @@
-package array_program;
 
 import java.util.Scanner;
 

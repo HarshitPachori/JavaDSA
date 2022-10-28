@@ -1,4 +1,3 @@
-package array_program;
 public class DNF_Sort {
     // leetcode problem at https://leetcode.com/problems/sort-colors/
     // i have used dutch national flag algo to solve this problem which is simple a

@@ -1,4 +1,3 @@
-package array_program;
 public class EquillibriumPointSum {
     public static int equillibriumPoint(int arr[], int n) {
         int leftSum = 0;

@@ -1,4 +1,4 @@
-package array_program;
+
 import java.util.TreeSet;
 
 public class ShortestOnLeft {

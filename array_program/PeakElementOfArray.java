@@ -1,4 +1,4 @@
-package array_program;
+;
 public class PeakElementOfArray {
     public static int peakElement(int arr[], int n) {
         int val = 0;

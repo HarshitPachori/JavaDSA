@@ -1,4 +1,3 @@
-package array_program;
 
 public class MoveZeroes {
     public static void move(int arr[], int n) {
