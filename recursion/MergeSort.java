@@ -19,7 +19,7 @@ class MergeSort {
 
         // * now merging subarrays */
         while (i < n1 && j < n2) {
-            if (L[i] <= R[i]) {
+            if (L[i] <= R[j]) {
                 arr[k] = L[i];
                 i++;
             } else {
@@ -62,7 +62,8 @@ class MergeSort {
 
     public static void main(String[] args) {
         MergeSort ms = new MergeSort();
-        int arr[] = { 5, 4, 3, 2, 1 };
+        // int arr[] = { 5, 4, 3, 2, 1 };
+        int arr[] = { 1, 3, 4, 7, 9 };
         int n = arr.length;
         ms.printArray(arr, n);
         ms.mergeSort(arr, 0, n - 1);
